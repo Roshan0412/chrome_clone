@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    color: rgb(73, 73, 73);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-list ul {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.google-logo-font {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.search-bar form {
+    position: relative;
+}
+
+.SearchBar form input[type="text"] {
+    margin-top: 50px;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px 20px 10px 45px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background: transparent;
+}
+
+.SearchBar form i {
+    position: absolute;
+    left: 20.4%;
+    top: 281px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+    pointer-events: none;
+}
+
+.recent-tab ul {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.recent-tab li {
+    text-align: center;
+}
+
+.recent-tab i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
