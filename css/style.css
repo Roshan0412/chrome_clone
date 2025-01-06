@@ -33,10 +33,9 @@ a {
     margin-top: 120px;
 }
 
-.google-logo-font img{
-    margin-top:10px;
-    width:280px;
-    height: 95px
+google-logo-font {
+    font-weight: bold;
+    font-size: 85px;
 }
 
 .search-bar form {
