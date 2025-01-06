@@ -33,9 +33,10 @@ a {
     margin-top: 120px;
 }
 
-.google-logo-font {
-    font-weight: bold;
-    font-size: 85px;
+.google-logo-font img{
+    margin-top:10px;
+    width:280px;
+    height: 95px
 }
 
 .search-bar form {
@@ -57,7 +58,7 @@ a {
 .SearchBar form i {
     position: absolute;
     left: 20.4%;
-    top: 281px;
+    top: 292px;
     margin-left: 10px;
     font-size: 18px;
     color: rgb(73, 73, 73);
@@ -73,10 +74,16 @@ a {
 
 .recent-tab li {
     text-align: center;
+    padding: 8px;
 }
 
 .recent-tab i {
     display: block;
     font-size: 24px;
     margin-bottom: 14px;
+}
+
+.recent-tab li:hover {
+    background-color: #DCDCDC;
+    border-radius: 7px;   
 }
